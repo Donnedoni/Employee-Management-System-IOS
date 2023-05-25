@@ -13,6 +13,7 @@
 		4C90A38E2A1E502B00FDD306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C90A38C2A1E502B00FDD306 /* Main.storyboard */; };
 		4C90A3902A1E502D00FDD306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C90A38F2A1E502D00FDD306 /* Assets.xcassets */; };
 		4C90A3932A1E502D00FDD306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C90A3912A1E502D00FDD306 /* LaunchScreen.storyboard */; };
+		4CB9EBBB2A1F4B8100A56690 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9EBBA2A1F4B8100A56690 /* Model.swift */; };
 		4D4BCC1D2A1F34D100BAC303 /* ToDOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BCC1C2A1F34D100BAC303 /* ToDOViewController.swift */; };
 		4D4BCC1F2A1F352000BAC303 /* ToDOTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BCC1E2A1F352000BAC303 /* ToDOTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		4C90A38F2A1E502D00FDD306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C90A3922A1E502D00FDD306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C90A3942A1E502D00FDD306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB9EBBA2A1F4B8100A56690 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4D4BCC1C2A1F34D100BAC303 /* ToDOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDOViewController.swift; sourceTree = "<group>"; };
 		4D4BCC1E2A1F352000BAC303 /* ToDOTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDOTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 				4C90A3862A1E502B00FDD306 /* AppDelegate.swift */,
 				4C90A3882A1E502B00FDD306 /* SceneDelegate.swift */,
 				4C90A38A2A1E502B00FDD306 /* ViewController.swift */,
+				4CB9EBBA2A1F4B8100A56690 /* Model.swift */,
 				4D4BCC1C2A1F34D100BAC303 /* ToDOViewController.swift */,
 				4D4BCC1E2A1F352000BAC303 /* ToDOTableViewCell.swift */,
 				4C90A38C2A1E502B00FDD306 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 				4D4BCC1D2A1F34D100BAC303 /* ToDOViewController.swift in Sources */,
 				4C90A38B2A1E502B00FDD306 /* ViewController.swift in Sources */,
 				4C90A3872A1E502B00FDD306 /* AppDelegate.swift in Sources */,
+				4CB9EBBB2A1F4B8100A56690 /* Model.swift in Sources */,
 				4D4BCC1F2A1F352000BAC303 /* ToDOTableViewCell.swift in Sources */,
 				4C90A3892A1E502B00FDD306 /* SceneDelegate.swift in Sources */,
 			);
