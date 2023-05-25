@@ -1,14 +1,22 @@
+
 //
-//  ToDOTableViewCell.swift
+//  TableViewCell.swift
 //  EmployeeManagementSystem
 //
-//  Created by DA MAC M1 115 on 2023/05/25.
+//  Created by DA MAC M1 150 on 2023/05/25.
 //
 
 import UIKit
 
 class ToDOTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameLabel: UILabel!
+  
+    @IBOutlet weak var lastNameLabel: UILabel!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    
+    @IBOutlet weak var contactNoLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,3 +29,4 @@ class ToDOTableViewCell: UITableViewCell {
     }
 
 }
+
