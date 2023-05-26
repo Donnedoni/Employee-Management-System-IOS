@@ -6,9 +6,11 @@
 //
 
 import Foundation
-
-// MARK: - Todo
 struct Employee: Codable {
     let id: Int
     let firstName, lastName, email, contactNo: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id,firstName, lastName, email, contactNo
+    }
 }
